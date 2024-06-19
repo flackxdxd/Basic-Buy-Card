@@ -3,9 +3,6 @@
 Integrated with Sellix.io
 
 ## Setup
-
-Install my-project with npm
-
 ```bash
     1. Open This Link https://dashboard.sellix.io/developer/embed
     2. Generate Your Own Embed For Your Product
