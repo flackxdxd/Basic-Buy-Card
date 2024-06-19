@@ -1,0 +1,62 @@
+/* <!-- coded & designed by flack.fun -->
+ <!-- flack.fun --> */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+span {
+  color: #e29555;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-flow: wrap column;
+  text-align: center;
+}
+
+.main-container > .main-text {
+  width: 25%;
+  background-color: #1f1f1f;
+  color: white;
+  height: 500px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
+}
+
+.main-container > .main-text p {
+  width: 95%;
+  margin-top: 15px;
+}
+
+.main-container > .main-text .line {
+  width: 25%;
+  border: 1px solid #e29555;
+}
+
+.main-container > .main-text button {
+  transition: all 0.2s;
+  height: 40px;
+  width: 35%;
+  margin-top: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e29555;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.main-container > .main-text button:hover {
+  transform: translateY(-5px);
+}
